@@ -30,7 +30,7 @@ O painel foi desenvolvido no Power BI, constando em uma visão consolidada:
 
 Participação de Mercado: Gráfico de barras horizontais exibindo o Market Share por empresa.
 
-Média de Ocupação por Período: Matriz detalhando a taxa de ocupação por empresa e turno.
+Média de Ocupação por Período: Matriz detalhando a taxa de ocupação por empresa e período selecionado.
 
 Ocupação X Preço: Gráfico de dispersão analisando a correlação entre a lotação dos ônibus e a estratégia de precificação.
 
