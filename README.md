@@ -1,6 +1,10 @@
 # Projeto de Análise Rodoviária
 Este projeto tem como objetivo a construção de um pipeline completo de dados para monitoramento do mercado rodoviário brasileiro, desde o web scraping de passagens até a visualização em um dashboard estratégico de inteligência competitiva.
-<img src="analise_rodoviaria.png" width="90%" />
+
+<p align="center">
+  <img src="analise_rodoviaria.png" style="display: block; margin: 0 auto; max-width: 100%; height: auto; image-rendering: -webkit-optimize-contrast;">
+</p>
+
 O fluxo contempla a extração (scraping), transformação, armazenamento (Arquitetura Medalhão) e consumo dos dados, com atualização automática diária via Databricks Jobs.
 
 ## Descrição do Projeto
@@ -17,6 +21,10 @@ Camada Ouro: Modelagem de negócios com criação de métricas como capacidade e
 Os dados são armazenados e versionados em tabelas no formato Delta Lake.
 
 Foi implementado um Job de atualização diária, responsável por orquestrar todo o pipeline, desde a raspagem dos novos dados até a atualização das tabelas de consumo.
+
+<p align="center">
+  <img src="job_analise_rodoviaria.png" style="max-width: 100%; height: auto;">
+</p>
 
 O painel foi desenvolvido no Power BI, constando em uma visão consolidada:
 
