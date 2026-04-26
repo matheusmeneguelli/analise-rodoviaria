@@ -35,3 +35,7 @@ Média de Ocupação por Período: Matriz detalhando a taxa de ocupação por em
 Ocupação X Preço: Gráfico de dispersão analisando a correlação entre a lotação dos ônibus e a estratégia de precificação.
 
 Média de Preço por Período: Gráfico de colunas comparando os valores médios praticados por cada operadora no período selecionado.
+
+## Ética de Dados e Responsabilidade Técnica
+Este projeto foi desenvolvido estritamente para fins de estudo e demonstração de arquitetura, com foco em boas práticas de engenharia e ética de dados. Por esse motivo, limitei propositalmente o volume de rotas, as janelas de datas e a frequência de atualização do Job para garantir que o pipeline seja leve e respeite os limites dos servidores de origem. Também apliquei técnicas de ofuscação de domínios sensíveis, visando proteger a fonte de dados, garantindo que o script não seja utilizado para fins indevidos.
+
